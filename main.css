@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.container-team{
+    display: grid;
+   
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+    width: 601px; 
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+
+}
+
+.title-team{
+    font-family: 'Rubik', sans-serif;
+    color: #099d8d;
+} 
+
+.paragraph-team{
+    font-family: 'Rubik', sans-serif;
+    color: #54585a;
+    
+}
