@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.form-center{
+    max-width: 601px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 45px auto 120px auto;
+}
+.title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #099D8D;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}
+span{
+    color: #099D8D;
+}
+.info-contact{
+    *color: #54585A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.info-contact-2{
+    color: #54585A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
