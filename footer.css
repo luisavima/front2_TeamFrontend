@@ -1,0 +1,74 @@
+/* @media screen and (min-width:  768px ){
+    .footer-container{
+        display:block;
+    }
+
+}
+
+ */
+
+.footer-container{
+    /* background: lavender; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.logo-container{
+    /* background: gainsboro; */
+    margin: 10px 10px 10px 10px;
+    width: 50%;
+    
+
+}
+
+.texto-copyright{
+    font-family: 'Rubik', sans-serif;
+    color: #54585a;  
+    text-align: center;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.logo-footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.menu-container{
+    /* background: gainsboro; */
+    text-align: right;
+    justify-content: flex-end;
+    margin: 40px;
+    margin-right: 40px;
+    width: 50%;
+    display: block;
+   
+}
+
+
+
+.navegacion{
+    align-items: flex-end;
+}
+
+.texto-menu{
+    font-family: 'Rubik', sans-serif;
+    color: #54585a;  
+    text-decoration: none;
+    list-style: none;
+    margin-right: 5px;
+    
+}
+
+.text-menu-ancor{
+    text-decoration: none;
+    list-style: none;
+}

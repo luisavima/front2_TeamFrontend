@@ -1,27 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 .container-team{
+    justify-content: center;
     display: grid;
    
     text-align: center;
     padding-top: 45px;
     padding-bottom: 60px;
-    width: 601px; 
+    width: 100%; 
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-  
-    
+}
 
+.container-texto-team{
+    text-align: center;
+    display: inline;
+    /* background: gainsboro; */
+    width: 70%;
+    margin: auto;
 }
 
 .title-team{
     font-family: 'Rubik', sans-serif;
     color: #099d8d;
+    
 } 
 
 .paragraph-team{
     font-family: 'Rubik', sans-serif;
-    color: #54585a;
+    color: #54585a;  
+}
+
+/* .quienes-somos-container{
+    background-color: gray;
+    width: 900px;
+    display: flex;
+} */
+
+/* img{
+    width: 278px;
+   
+    border-radius: 5%;
+
+}
+
+
+.texto-andrea{
     
 }
+
+.title-quienes-somos{
+    font-family: 'Rubik', sans-serif;
+    color: #099d8d;
+}
+
+.paragraph-quienes-somos{
+    font-family: 'Rubik', sans-serif;
+    color: #54585a; 
+
+} */
