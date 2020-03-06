@@ -11,7 +11,7 @@
     }
 } */
 
- 
+
 .footer-container{
     /* background: lavender; */
     display: flex;
@@ -24,11 +24,11 @@
     /* background: gainsboro; */
     margin: 10px;
     width: 50%;
+    padding-left: 30px;
 }
-
 .texto-copyright{
     font-family: 'Rubik', sans-serif;
-    color: #54585a;  
+    color: #54585a;
     text-align: center;
     margin-bottom: 20px;
     font-size: 14px;
@@ -38,10 +38,11 @@
 .logo-footer{
     width: 70%;
     margin: auto;
-    display: flex; 
+    display: flex;
     height: auto;
     margin-top: 20px;
 }
+
 
 
 .menu-container{
@@ -53,9 +54,8 @@
     flex-direction: column;
     text-align: right;
     margin: auto;
-    padding-right: 50px; 
+    padding-right: 120px;
 }
-
 .container-text{
     margin-bottom: 10px;
 }
@@ -70,19 +70,19 @@
 
 .texto-menu{
     font-family: 'Rubik', sans-serif;
-    color: #54585a;  
+    color: #54585a;
     text-decoration: none;
     list-style: none;
     margin-bottom: 10px;
-  
+
 }
 
 a{
     text-decoration: none;
     color: #54585a;
     font-family:'Rubik';
-    
-} 
+
+}
 
 .texto-menu-ancor{
     margin-bottom: 15px;
@@ -102,6 +102,6 @@ a{
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 60px;
-    
+
     }
 }
