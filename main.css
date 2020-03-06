@@ -18,7 +18,7 @@
     text-align: center;
     display: inline;
     /* background: gainsboro; */
-    width: 70%;
+    width: 57%;
     margin: auto;
     
 }
@@ -36,31 +36,8 @@
     font-size: 16px; 
 }
 
-/* .quienes-somos-container{
-    background-color: gray;
-    width: 900px;
-    display: flex;
-} */
-
-/* img{
-    width: 278px;
-   
-    border-radius: 5%;
-
+@media screen and (max-width:  768px ){
+    .container-texto-team{
+        width: 100%;
+    }
 }
-
-
-.texto-andrea{
-    
-}
-
-.title-quienes-somos{
-    font-family: 'Rubik', sans-serif;
-    color: #099d8d;
-}
-
-.paragraph-quienes-somos{
-    font-family: 'Rubik', sans-serif;
-    color: #54585a; 
-
-} */
