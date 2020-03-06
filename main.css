@@ -20,17 +20,20 @@
     /* background: gainsboro; */
     width: 70%;
     margin: auto;
+    
 }
 
 .title-team{
     font-family: 'Rubik', sans-serif;
     color: #099d8d;
+    font-size: 24px;
     
 } 
 
 .paragraph-team{
     font-family: 'Open Sans';
-    color: #54585a;  
+    color: #54585a; 
+    font-size: 16px; 
 }
 
 /* .quienes-somos-container{
