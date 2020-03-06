@@ -1,0 +1,33 @@
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    margin: 0 auto;
+    display: grid;
+}
+
+.header_menu {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    color: white;
+    background-color: #099d8d;
+}
+
+.banner_text-hero {
+    padding: 200px 0 0 80px;
+    font-family: monospace;
+    color: black;
+    font-size: 50;
+}
+
+.espacio {
+    color: purple;
+    margin-right: 25;
+    margin-left: 25px;
+    Display: block;
+    margin: auto;
+    justify-content: center;
+}
