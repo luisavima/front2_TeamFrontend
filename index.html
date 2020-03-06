@@ -24,29 +24,29 @@
         <section class="form-center">
             <h1 class="title">CONTACTO</h1>
             <p class="info-contact">Lorem ipsum dolor sit amet consectetur adipiscing elit tristique blandit, dui senectus tempor quam montes aptent eros duis in vehicula</p>
-            <p class="info -contact-2">Todos los campos  marcados con <span>*</span> son obligatorios.</p>
+            <p class="info-contact-2">Todos los campos  marcados con <span>*</span> son obligatorios.</p>
             <form>
-                <div class="row">
-                    <label id="name-label" for="name">Nombre Completo <span>*</span></label>
-                    <input type="text" name="name" id="name" placeholder="Nombre..." required>
+                <div>
+                    <label class="label" id="name-label" for="name">Nombre Completo <span>*</span></label>
+                    <input  class="field" type="text" name="name" id="name" placeholder="Nombre..." required>
                 </div>
 
                 <div class="row">
-                    <div class="col-75">
-                        <label id="email-label" for="email">Email <span>*</span></label>
-                        <input type="email" name="email" id="email"  placeholder="nombre.apellido@mail.com"  required>
+                    <div class="col-60">
+                        <label class="label" id="email-label" for="email">Email <span>*</span></label>
+                        <input class="field" type="email" name="email" id="email"  placeholder="nombre.apellido@mail.com"  required>
                     </div>
-                    <div class="col-25">
-                        <label id="phone-label" for="phone">Teléfono</label>
-                        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Ej: 123456789"/>
+                    <div class="col-40">
+                        <label class="label" id="phone-label" for="phone">Teléfono</label>
+                        <input  class="field" type="tel" name="phone" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Ej: 123456789"/>
                     </div>
                 </div>
-                <div class="row">
-                    <label id="message-label">Mensaje <span>*</span></label>
+                <div>
+                    <label class="label" id="message-label">Mensaje <span>*</span></label>
                     <textarea class="field area" id="message" name="message" placeholder="¿Qué necesitas?" required></textarea>
                 </div>
 
-                <div class="row">
+                <div>
                     <button class="button" type="submit" id="submit">ENVIAR</button>
                 </div>
             </form>

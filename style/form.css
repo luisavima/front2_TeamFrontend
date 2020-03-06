@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+:root {
+    --text-color: #54585A;
+    --font-family: 'Open Sans', sans-serif;
+}
 .form-center{
-    max-width: 601px;
+    width: 601px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -19,13 +23,62 @@ span{
     color: #099D8D;
 }
 .info-contact{
-    *color: #54585A;
-    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+    font-family: var(--font-family);
     font-size: 16px;
 }
 .info-contact-2{
-    color: #54585A;
-    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+    font-family: var(--font-family);
     font-size: 12px;
     text-align: center;
+    padding-bottom: 48px;
 }
+.label{
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 14px;
+}
+.field{
+    width: 96%;
+    margin-top: 5px;
+    padding: 2%;
+    height: 30px;
+    border: 0.5px solid #b8b8b9;
+    margin-bottom: 15px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.area{
+    width: 96%;
+    height: 105px;
+    margin-bottom: 30px;
+}
+.col-40 {
+    justify-content: right;
+    align-items: flex-end;
+    width: 39.5%;
+    margin-left: 44px;
+}
+.col-60 {
+    justify-content: left;
+    width: 60.6%;
+}
+.row{
+    display: flex;
+    width: 601px;
+}
+.button{
+    color: #ffffff;
+    background-color: #099D8D;
+    font-family: var(--font-family);
+    font-size: 16px;
+    position: relative;
+    float: right;
+    width: 40%;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
