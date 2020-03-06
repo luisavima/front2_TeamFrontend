@@ -24,6 +24,7 @@
     /* background: gainsboro; */
     margin: 10px;
     width: 50%;
+    padding-left: 30px;
 }
 
 .texto-copyright{
@@ -53,7 +54,7 @@
     flex-direction: column;
     text-align: right;
     margin: auto;
-    padding-right: 50px; 
+    padding-right: 120px; 
 }
 
 .container-text{
