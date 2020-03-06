@@ -4,13 +4,80 @@
     --text-color: #54585A;
     --font-family: 'Open Sans', sans-serif;
 }
-.form-center{
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 60px 340px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: #099d8d;
+    font-weight: bold;
+    color: #ffff;
+    font-family: 'Rubik';
+}
+
+.teamName {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    font-size: 16px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 45px;
+    font-size: 15px;
+}
+
+.img-equipo {
+    background-image: url('../img/equipo.jpg');
+    background-repeat: center center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 780px) {
+    .header {
+        display: grid;
+        grid-template-rows: 105px 195px;
+    }
+    .container {
+        display: grid;
+        grid-template-rows: 60px 45px;
+        grid-template-columns: unset;
+    }
+    .teamName {
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .option {
+        margin-right: 0px;
+        background-color: #14d9c4;
+    }
+    .img-equipo {
+        background-image: url('../img/equipo2.jpg');
+    }
+}
+
+.form-center {
     width: 601px;
     display: grid;
     justify-content: center;
     align-items: center;
     margin: 45px auto 120px auto;
 }
+
 .title {
     margin-top: 0;
     margin-bottom: 15px;
@@ -19,27 +86,32 @@
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
 }
-span{
+
+span {
     color: #099D8D;
 }
-.info-contact{
+
+.info-contact {
     color: var(--text-color);
     font-family: var(--font-family);
     font-size: 16px;
 }
-.info-contact-2{
+
+.info-contact-2 {
     color: var(--text-color);
     font-family: var(--font-family);
     font-size: 12px;
     text-align: center;
     padding-bottom: 48px;
 }
-.label{
+
+.label {
     color: var(--text-color);
     font-family: var(--font-family);
     font-size: 14px;
 }
-.field{
+
+.field {
     width: 96%;
     margin-top: 5px;
     padding: 2%;
@@ -51,26 +123,30 @@ span{
     color: var(--text-color);
 }
 
-.area{
+.area {
     width: 96%;
     height: 105px;
     margin-bottom: 30px;
 }
+
 .col-40 {
     justify-content: right;
     align-items: flex-end;
     width: 39.5%;
     margin-left: 44px;
 }
+
 .col-60 {
     justify-content: left;
     width: 60.6%;
 }
-.row{
+
+.row {
     display: flex;
     width: 601px;
 }
-.button{
+
+.button {
     color: #ffffff;
     background-color: #099D8D;
     font-family: var(--font-family);
@@ -83,4 +159,3 @@ span{
     cursor: pointer;
     border: none;
 }
-
