@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 :root {
     --text-color: #54585A;
     --font-family: 'Open Sans', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -48,31 +48,9 @@
     background-size: cover;
 }
 
-@media screen and (max-width: 780px) {
-    .header {
-        display: grid;
-        grid-template-rows: 105px 195px;
-    }
-    .container {
-        display: grid;
-        grid-template-rows: 60px 45px;
-        grid-template-columns: unset;
-    }
-    .teamName {
-        justify-content: center;
-        margin-left: 0px;
-    }
-    .option {
-        margin-right: 0px;
-        background-color: #14d9c4;
-    }
-    .img-equipo {
-        background-image: url('../img/equipo2.jpg');
-    }
-}
 
 .form-center {
-    width: 601px;
+    min-width: 601px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -159,4 +137,50 @@ span {
     border-radius: 6px;
     cursor: pointer;
     border: none;
+}
+@media screen and (max-width: 780px) {
+    .header {
+        display: grid;
+        grid-template-rows: 105px 195px;
+    }
+    .container {
+        display: grid;
+        grid-template-rows: 60px 45px;
+        grid-template-columns: unset;
+    }
+    .teamName {
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .option {
+        margin-right: 0px;
+        background-color: #14d9c4;
+    }
+    .img-equipo {
+        background-image: url('../img/equipo2.jpg');
+    }
+    .form-center{
+        padding:20px 20px;
+    }
+    .row{
+        grid-template-columns: 1fr;
+    }
+
+    .col-60, .col-40, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        text-align: start;
+    }
+    /*.form-center {
+        width: auto;
+        padding: 10px;
+        margin: 10px;
+        max-width: 442px;
+    }
+    .field .label .area .row{
+        flex-direction: column;
+        padding: 0px;
+        margin: 10px;
+        max-width: 442px;
+    }*/
 }
