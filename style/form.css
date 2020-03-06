@@ -17,7 +17,7 @@
     grid-template-rows: 60px 340px;
 }
 
-.container {
+.container-h {
     display: grid;
     grid-template-columns: 65% 35%;
     background-color: #099d8d;
@@ -48,14 +48,14 @@
     background-size: cover;
 }
 
-
-.form-center {
-    min-width: 601px;
+/*Formulario*/
+/*.form-center {
+    width: 601px;
     display: grid;
     justify-content: center;
     align-items: center;
     margin: 45px auto 120px auto;
-}
+}*/
 
 .title {
     margin-top: 0;
@@ -107,22 +107,8 @@ span {
     height: 105px;
     margin-bottom: 30px;
 }
-
-.col-40 {
-    justify-content: right;
-    align-items: flex-end;
-    width: 39.5%;
-    margin-left: 44px;
-}
-
-.col-60 {
-    justify-content: left;
-    width: 60.6%;
-}
-
-.row {
-    display: flex;
-    width: 601px;
+.col-12 col-md-8 col-lg-6{
+    max-height: 600px !important;
 }
 
 .button {
@@ -143,7 +129,7 @@ span {
         display: grid;
         grid-template-rows: 105px 195px;
     }
-    .container {
+    .container-h {
         display: grid;
         grid-template-rows: 60px 45px;
         grid-template-columns: unset;
@@ -159,18 +145,7 @@ span {
     .img-equipo {
         background-image: url('../img/equipo2.jpg');
     }
-    .form-center{
-        padding:20px 20px;
-    }
-    .row{
-        grid-template-columns: 1fr;
-    }
 
-    .col-60, .col-40, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-        text-align: start;
-    }
     /*.form-center {
         width: auto;
         padding: 10px;
