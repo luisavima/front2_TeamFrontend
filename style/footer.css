@@ -11,8 +11,12 @@
     }
 } */
 
+<<<<<<< HEAD
 
 .footer-container{
+=======
+.footer-container {
+>>>>>>> prueba
     /* background: lavender; */
     display: flex;
     /* justify-content: space-between; */
@@ -20,13 +24,22 @@
     height: auto;
 }
 
+<<<<<<< HEAD
 .logo-container{
+=======
+.logo-container {
+>>>>>>> prueba
     /* background: gainsboro; */
     margin: 10px;
     width: 50%;
     padding-left: 30px;
 }
+<<<<<<< HEAD
 .texto-copyright{
+=======
+
+.texto-copyright {
+>>>>>>> prueba
     font-family: 'Rubik', sans-serif;
     color: #54585a;
     text-align: center;
@@ -35,7 +48,11 @@
     width: 100%;
 }
 
+<<<<<<< HEAD
 .logo-footer{
+=======
+.logo-footer {
+>>>>>>> prueba
     width: 70%;
     margin: auto;
     display: flex;
@@ -43,9 +60,13 @@
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 
 
 .menu-container{
+=======
+.menu-container {
+>>>>>>> prueba
     /* background: gainsboro; */
     /* justify-content: flex-end; */
     width: 50%;
@@ -56,24 +77,42 @@
     margin: auto;
     padding-right: 120px;
 }
+<<<<<<< HEAD
 .container-text{
     margin-bottom: 10px;
 }
 
+=======
+
+.container-text {
+    margin-bottom: 10px;
+}
+
+
+>>>>>>> prueba
 /* .margin-left{
     margin-left: 40px;
 } */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> prueba
 /* .navegacion{
     align-items: flex-end;
 } */
 
+<<<<<<< HEAD
 .texto-menu{
+=======
+.texto-menu {
+>>>>>>> prueba
     font-family: 'Rubik', sans-serif;
     color: #54585a;
     text-decoration: none;
     list-style: none;
     margin-bottom: 10px;
+<<<<<<< HEAD
 
 }
 
@@ -97,11 +136,40 @@ a{
         margin: 0px;
     }
     .menu-container{
+=======
+}
+
+a {
+    text-decoration: none;
+    color: #54585a;
+    font-family: 'Rubik';
+}
+
+.texto-menu-ancor {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .logo-container {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu-container {
+>>>>>>> prueba
         width: 100%;
         text-align: center;
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 60px;
+<<<<<<< HEAD
 
     }
 }
+=======
+    }
+}
+>>>>>>> prueba
